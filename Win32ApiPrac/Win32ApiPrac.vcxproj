@@ -21,8 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{EDB28250-D436-4348-BB33-2BBE361AF9D1}</ProjectGuid>
-    <RootNamespace>Win32ApiPrac</RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>Win32ApiPrac</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
