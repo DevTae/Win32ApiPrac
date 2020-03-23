@@ -18,10 +18,11 @@ BOOL                InitInstance(HINSTANCE, int);
 LRESULT CALLBACK    WndProc(HWND, UINT, WPARAM, LPARAM);
 INT_PTR CALLBACK    About(HWND, UINT, WPARAM, LPARAM);
 
-int APIENTRY _tWinMain(HINSTANCE hInstance,
-                      HINSTANCE hPrevInstance,
-                      LPTSTR    lpCmdLine,
-                      int       nCmdShow)
+// _In_ : 읽기 전용 암시, _In_opt_ : 읽기 전용이지만 선택적
+int APIENTRY _tWinMain(_In_ HINSTANCE hInstance,
+                     _In_opt_ HINSTANCE hPrevInstance,
+                     _In_ LPTSTR    lpCmdLine,
+                     _In_ int       nCmdShow)
 {
     UNREFERENCED_PARAMETER(hPrevInstance);
     UNREFERENCED_PARAMETER(lpCmdLine);
