@@ -1,2 +1,4 @@
-﻿  sizeof.cpp
+﻿  Main.cpp
+c:\users\fmkms\source\repos\win32apiprac\win32apiprac\main.cpp(22): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+c:\users\fmkms\source\repos\win32apiprac\win32apiprac\main.cpp(28): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
   Win32ApiPrac.vcxproj -> C:\Users\fmkms\source\repos\Win32ApiPrac\Debug\Win32ApiPrac.exe

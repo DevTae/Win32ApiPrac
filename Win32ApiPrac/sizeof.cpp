@@ -6,6 +6,9 @@ void print_sizeof(size_t size)
 	printf("%d\n", size);
 }
 
+// Windows Data Types °Ë»ö
+// https://docs.microsoft.com/en-us/windows/win32/winprog/windows-data-types
+
 int _main(void)
 {
 	print_sizeof(sizeof(int)); // 4
