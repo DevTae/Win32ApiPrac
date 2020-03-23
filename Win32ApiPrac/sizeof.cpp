@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include<Windows.h>
+#include <Windows.h>
 
 void print_sizeof(size_t size)
 {
 	printf("%d\n", size);
 }
 
-int main(void)
+int _main(void)
 {
 	print_sizeof(sizeof(int)); // 4
 	print_sizeof(sizeof(long)); // 4
@@ -30,6 +30,7 @@ int main(void)
 	print_sizeof(sizeof(HWND)); // 4
 	print_sizeof(sizeof(void*)); // 4
 
+	print_sizeof(sizeof(WORD));
 	print_sizeof(sizeof(DWORD)); // 4
 	print_sizeof(sizeof(COLORREF)); // DWORD 4
 
@@ -38,4 +39,6 @@ int main(void)
 	print_sizeof(sizeof(unsigned int)); // 4
 
 	getchar();
+
+	return 0;
 }
